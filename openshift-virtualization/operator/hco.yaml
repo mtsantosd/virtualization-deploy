@@ -15,9 +15,9 @@ spec:
   ksmConfiguration:
     nodeLabelSelector: {}
 
-  storageImport:
-    insecureRegistries:
-      - registry.ocp4.example.com:8443
+  #storageImport:
+  #  insecureRegistries:
+  #    - registry.ocp4.example.com:8443
 
   virtualMachineOptions:
     disableFreePageReporting: false
