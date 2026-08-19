@@ -5,7 +5,7 @@ metadata:
   namespace: openshift-cnv
   labels:
     app: kubevirt-hyperconverged
-    operators.coreos.com/kubevirt-hyperconverged.openshift-cnv: " "
+    operators.coreos.com/kubevirt-hyperconverged.openshift-cnv: ""
   annotations:
     deployOVS: "false"
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
