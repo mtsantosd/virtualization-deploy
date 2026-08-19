@@ -47,7 +47,7 @@ spec:
     vmiCalcConfigName: DedicatedVirtualResources
 
   featureGates:
-    enableCommonBootImageImport: false
+    enableCommonBootImageImport: true
     downwardMetrics: false
     disableMDevConfiguration: false
     enableApplicationAwareQuota: false
