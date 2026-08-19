@@ -63,7 +63,7 @@ spec:
     workloadUpdateMethods:
       - LiveMigrate
 
-  uninstallStrategy: BlockUninstallIfWorkloadExist
+  uninstallStrategy: BlockUninstallIfWorkloadsExist
 
   resourceRequirements:
     vmiCPUAllocationRatio: 10
